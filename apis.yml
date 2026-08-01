@@ -1,4 +1,16 @@
 aid: pluto-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pluto-ai.png
 name: Pluto AI
 description: Pluto AI is a company surfaced as a portfolio company of 500-global and added to the API
   Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -23,3 +35,12 @@ maintainers:
 common:
 - type: Website
   url: https://plutoshift.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Company appears defunct: plutoshift.com 301-redirects to an unrelated squatted
+    streaming site (shuttleflow.io), docs.plutoshift.com does not resolve, and the
+    Plutoshift GitHub org has zero public repositories. No live API, docs, SDK, or
+    developer surface exists to enrich; no artifacts fabricated.'
